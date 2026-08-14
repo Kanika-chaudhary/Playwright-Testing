@@ -49,7 +49,7 @@ test("Test for google title",async({page})=>{
 
 
 //Test Case 2
-   test.only("Validate Title URL",async({page})=>{
+   test("Validate Title URL",async({page})=>{
 
     await page.goto("https://www.google.com/");
     console.log("Application title is: "+await page.title());
